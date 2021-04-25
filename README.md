@@ -1,5 +1,5 @@
 # cmdtool
-easy, simple command line parser
+simple command line parser
 
 # sample code
 
