@@ -16,7 +16,7 @@ if(cmdline.hasKey("f")) //single value
 
 if(cmdline.hasKey("vec")) //array
 {
-  //100, 200, 400, 800,
+  //vec=100, 200, 400, 800,
   std::vector<int> vec_int=cmdline.get_vector<int>("v");
   std::cout<<"vec=";
   for(const auto& value:vec_int)
