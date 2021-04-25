@@ -3,7 +3,7 @@ easy, simple command line parser
 
 # sample code
 
-``
+`
 //sample.exe -f myfile -vec 100 200 400 800
 
 cmdtool::parser cmdline(argc,argv,'-'); // '-' is a key prefix(optional)
@@ -23,4 +23,4 @@ if(cmdline.hasKey("vec")) //array
     std::cout<<value<<", ";
   std::cout<<std::endl;
 }
-``
+`
